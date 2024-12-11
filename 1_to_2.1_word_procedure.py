@@ -80,6 +80,6 @@ for paragraph in doc.paragraphs:
         paragraph._p = paragraph._element = None
 
 # 保存修改后的结果
-doc_path = 'D:\\Research Files\\2.1号文件.docx'
+doc_path = 'D:\\ResearchFiles\\2.1号文件.docx'
 doc.save(doc_path)
 print(f'修改后的文档已保存D:\\ResearchFiles\\2.1号文件.docx')
